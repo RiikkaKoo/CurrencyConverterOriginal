@@ -1,6 +1,6 @@
 package view;
 
-import application.CurrencyConverterController;
+import controller.CurrencyConverterController;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

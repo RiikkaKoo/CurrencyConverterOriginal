@@ -1,4 +1,4 @@
-package entity;
+package model;
 
 public class CurrencyType {
 
@@ -16,7 +16,7 @@ public class CurrencyType {
         return this.rateToEur;
     }
 
-    public String getAbbrevation() {
+    public String getAbbreviation() {
         return this.abbrevation;
     }
 
@@ -28,6 +28,5 @@ public class CurrencyType {
     public String toString() {
         return this.abbrevation;
     }
-
 
 }

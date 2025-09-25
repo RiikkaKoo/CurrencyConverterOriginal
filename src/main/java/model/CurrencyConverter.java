@@ -1,8 +1,13 @@
-package entity;
+package model;
+
+import java.util.ArrayList;
 
 public class CurrencyConverter {
 
+    private ArrayList<CurrencyType> currencies = new ArrayList<>();
+
     public CurrencyConverter() {
+
     }
 
     public double convert(double rate1, double rate2, double amount) {
