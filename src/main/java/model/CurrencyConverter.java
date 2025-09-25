@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class CurrencyConverter {
 
-    private ArrayList<CurrencyType> currencies = new ArrayList<>();
-
     public CurrencyConverter() {
 
     }
